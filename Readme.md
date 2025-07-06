@@ -7,12 +7,12 @@ Built using **LangChain**, **ChromaDB**, **Groq's LLaMA-3**, and deployed with *
 📚 Source Materials Used
 All responses by Maitri are generated using trusted, preloaded PDF documents related to maternal health, nutrition, and mental wellness. These documents are stored in the /data/ folder and embedded using ChromaDB.
 
-| Document Title                                    | Domain             | Source                |
-| ------------------------------------------------- | ------------------ | --------------------- |
-| *Handbook of Nutrition and Pregnancy*             | Maternal Nutrition | Springer              |
-| *Essentials of Maternal and Child Health Nursing* | Pregnancy Care     | Open Nursing Texts    |
-| *Mental Health Handbook (Clinical Psychology)*    | Mental Wellness    | Public Health Archive |
-| *WHO Guidelines on Postnatal Care*                | Maternal & Infant  | WHO Docs              |
+| Document Title                                                         | Domain             | Source                |
+| ---------------------------------------------------------------------- | ------------------ | --------------------- |
+| *Dietary Supplements-During Pregnancy-Need-Efficacy-and-Safety.pdf*    | Maternal Nutrition | Springer              |
+| *my_safe_motherhood_booklet_english.pdf*                               | Pregnancy Care     | Open Nursing Texts    |
+| *Mental Health Document (Clinical Psychology)*                         | Mental Wellness    | Public Health Archive |
+| *WHO Guidelines on Postnatal Care*                                     | Maternal & Infant  | WHO Docs              |
 
 
 ✅ You can add more PDF documents by placing them inside the /data/ folder and rerunning the vector database generation script.
@@ -106,6 +106,7 @@ Keep in mind that PPD is a treatable condition, and with the right support, you 
 
 Source:
 World Health Organization. (2018). Postpartum care. Retrieved from <https://www.who.int/news-room/fact-sheets/detail/postpartum-care>
+
 
 
 | Capability                       | Covered   |
